@@ -1,0 +1,17 @@
+.section {
+    // padding-top: 94px;
+    // padding-bottom: 94px;
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+    
+    &__heading {
+        @media (max-width: 1199px) {
+            display: none;
+        }
+    }
+
+    &__background {
+        background-color: #F5F4FA;
+    }
+}

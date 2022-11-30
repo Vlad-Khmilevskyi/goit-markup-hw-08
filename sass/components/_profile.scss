@@ -1,0 +1,24 @@
+.profile {
+    display: flex;
+    padding: 0;
+    gap: 30px;
+
+    &__card {
+        position: relative;
+        height: 294px;
+    }
+
+    &--title {
+        position: absolute;
+        content: '';
+        padding: 27px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        background: rgba(47, 48, 58, 0.8);
+    
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

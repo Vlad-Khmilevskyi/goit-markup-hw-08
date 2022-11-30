@@ -1,0 +1,17 @@
+.title {
+
+    @media (max-width: 767px) {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    
+    // font-weight: 700;
+    // font-size: 14px;
+    // line-height: 16px;
+    // letter-spacing: 0.03em;
+    // text-transform: uppercase;
+}

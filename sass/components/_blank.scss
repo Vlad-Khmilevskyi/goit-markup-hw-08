@@ -1,0 +1,13 @@
+.blank {
+    padding-bottom: 20px;
+
+    &__input {
+        position: relative;
+        margin-top: 4px;
+        margin-bottom: 10px;
+
+        &:hover {
+            fill: #2196F3;
+        }
+    }
+}

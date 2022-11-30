@@ -1,0 +1,33 @@
+.card {
+    box-shadow: var(--card-shadow);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #fff;
+
+    @media screen and (min-width: 360px) {
+        width: 450px;
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__description {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    &__names {
+        padding: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        color: var(--brand-color);
+    }
+
+    &__skills {
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+}

@@ -1,0 +1,40 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+
+    background-color: #2F303A;
+
+    &__box--one {
+        @media  (min-width: 360px) {
+            text-align: center;
+            padding-bottom: 60px;
+        }
+        
+        // display: flex;
+        // flex-wrap: wrap;
+        // gap: 20px;
+        // width: 231px;
+    }
+
+    &__box--two {
+        @media screen and (min-width: 360px) {
+            // text-align: center;
+            padding-bottom: 60px;
+        }
+        // padding-left: 70px;
+        // padding-top: 12px;
+    }
+
+    &__box--three {
+        // padding-top: 12px;
+        // padding-left: 93px;
+    }
+
+    &--title {
+        padding-bottom: 20px;
+        margin: 0 auto;
+    
+        color: #fff;
+    }
+}

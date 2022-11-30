@@ -1,0 +1,28 @@
+.subscribe {
+    display: block;
+    // display: flex;
+
+    // gap: 12px;
+
+    &__input {
+        @media (min-width: 360px) {
+            display: block;
+            padding: 0;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            padding-left: 12px;
+            width: 450px;
+            height: 50px;
+            
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            border-radius: 4px;
+            
+            background-color: transparent;
+            color: #fff;
+            
+            outline: 0;
+            outline-offset: 0;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.logo {    
+    &__style {
+        // @media (max-width: 767px) {
+        //     font-family: 'Raleway', sans-serif;
+        //     font-weight: 700;
+        //     font-size: 24px;
+        //     line-height: 28px;
+        //     letter-spacing: 0.03em;
+            
+        //     color: #2196F3;
+        // }
+
+        @media (min-width: 360px) {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.03em;
+            
+            color: #2196F3;
+        }
+
+        // @media (min-width: 1200px) {
+        //     font-family: 'Raleway', sans-serif;
+        //     font-weight: 700;
+        //     font-size: 26px;
+        //     line-height: 1.19;
+        //     letter-spacing: 0.03em;
+        //     color: #2196F3;
+        // }
+    }
+
+    &--black {
+        color: #000;
+    }
+
+    &--white {
+        color: #fff;
+    }
+
+    @media  (min-width: 360px) and (max-width: 767px) {
+        display: block;
+        padding: 16px 0;
+    }
+
+    // @media  (min-width: 768px) {
+    //     display: block;
+    //     padding-top: 24px;
+    //     padding-bottom: 25px;
+    //     margin-right: 93px;
+    // }
+}

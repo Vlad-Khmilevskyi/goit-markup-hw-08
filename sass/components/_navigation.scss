@@ -41,6 +41,10 @@
         height: 4px;
         background: #2196F3;
         border-radius: 2px;
+
+        // @media (min-width: 768px) and (max-width: 1199px) {
+        //     bottom: calc(0px - 2px);
+        // }
     }
 
     @media (max-width: 767px) {

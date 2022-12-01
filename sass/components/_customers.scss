@@ -1,16 +1,23 @@
 .customers {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 480px) and (max-width: 1199px) {
+        margin: -15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        gap: 30px;
+    }
+
     // display: flex;
     // padding: 0;
     // margin: 0;
-
-    // gap: 30px;
 
     &__box {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 170px;
-        height: 92px;
         padding: 0;
         margin: 0;
     
@@ -23,15 +30,31 @@
         &:focus {
             border-color: #2196F3;
         }
+
+        @media screen and (min-width: 480px) and (max-width: 767px) {
+            width: 210px;
+            height: 92px;
+            flex-basis: calc((100% - 4 * 15px) / 2);
+            margin: 15px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+            width: 226px;
+            height: 92px;
+            flex-basis: calc((100% - 6 * 15px) / 3);
+            margin: 15px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 170px;
+            height: 92px;
+        }
     }
 
     &__link {
         display: flex;
         justify-content: center;
         align-items: center;
-    
-        width: 170px;
-        height: 92px;
     
         fill: #AFB1B8;
     
@@ -40,6 +63,21 @@
         &:hover,
         &:focus {
             fill: #2196F3;
+        }
+
+        @media screen and (min-width: 480px) and (max-width: 767px) {
+            width: 210px;
+            height: 92px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+            width: 226px;
+            height: 92px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 170px;
+            height: 92px;
         }
     }
 

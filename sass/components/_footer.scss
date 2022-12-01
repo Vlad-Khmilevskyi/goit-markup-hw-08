@@ -6,7 +6,7 @@
     background-color: #2F303A;
 
     &__box--one {
-        @media  (min-width: 360px) {
+        @media screen and (min-width: 480px) and (max-width: 767px) {
             text-align: center;
             padding-bottom: 60px;
         }
@@ -18,7 +18,7 @@
     }
 
     &__box--two {
-        @media screen and (min-width: 360px) {
+        @media screen and (min-width: 480px) and (max-width: 767px) {
             // text-align: center;
             padding-bottom: 60px;
         }
@@ -27,6 +27,8 @@
     }
 
     &__box--three {
+        @media screen and (min-width: 480px) and (max-width: 767px) {
+        }
         // padding-top: 12px;
         // padding-left: 93px;
     }

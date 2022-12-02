@@ -1,5 +1,5 @@
 .social {
-    @media (min-width: 360px) {
+    @media (min-width: 480px) {
         display: flex;
         justify-content: center;
 
@@ -13,13 +13,7 @@
     // gap: 10px;
 
     &--bloc {
-        @media (min-width: 360px) and (max-width: 767px) {
-            padding: 16px 122px 0px 122px;
-            margin: 0;
-        }
-
-        // padding: 16px 32px 0px 32px;
-        // margin: 0;
+        padding-top: 16px;
     }
 
     &__link {

@@ -1,21 +1,23 @@
 .logo {
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        display: flex;
+        padding: 16px 0;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px){
         padding-top: 26px;
         padding-bottom: 26px;
         margin-right: 87px;
     }
-    
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 24px;
+        padding-bottom: 25px;
+        margin-right: 93px;
+    }
+
     &__style {
-        // @media (max-width: 767px) {
-        //     font-family: 'Raleway', sans-serif;
-        //     font-weight: 700;
-        //     font-size: 24px;
-        //     line-height: 28px;
-        //     letter-spacing: 0.03em;
-            
-        //     color: #2196F3;
-        // }
 
         @media screen and (min-width: 480px) {
             font-family: 'Raleway', sans-serif;
@@ -27,14 +29,14 @@
             color: #2196F3;
         }
 
-        // @media (min-width: 1200px) {
-        //     font-family: 'Raleway', sans-serif;
-        //     font-weight: 700;
-        //     font-size: 26px;
-        //     line-height: 1.19;
-        //     letter-spacing: 0.03em;
-        //     color: #2196F3;
-        // }
+        @media (min-width: 1200px) {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+            color: #2196F3;
+        }
     }
 
     &--black {
@@ -44,17 +46,4 @@
     &--white {
         color: #fff;
     }
-
-    @media screen and (min-width: 480px) and (max-width: 767px) {
-        display: flex;
-        // width: 450px;
-        padding: 16px 0;
-    }
-
-    // @media  (min-width: 768px) {
-    //     display: block;
-    //     padding-top: 24px;
-    //     padding-bottom: 25px;
-    //     margin-right: 93px;
-    // }
 }

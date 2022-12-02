@@ -2,17 +2,25 @@
     padding-bottom: 30px;
 
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 
     color: #757575;
 
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+    }
+
     &__label {
         display: flex;
         align-items: center;
-        justify-content: center;
+        
         gap: 7px;
+
+        @media screen and (min-width: 1200px) {
+            justify-content: center;
+        }
     }
 
     &__input {

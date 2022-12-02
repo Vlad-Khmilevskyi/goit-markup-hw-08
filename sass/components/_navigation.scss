@@ -1,13 +1,17 @@
 .navigation {
     margin-right: auto;
 
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+
     &__style {
-            display: flex;
-            padding-left: 0;
-            padding-top: 32px;
-            padding-bottom: 32px;
-            gap: 50px;
-        }
+        display: flex;
+        padding-left: 0;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        gap: 50px;
+    }
 
     &__link {
         position: relative;
@@ -41,13 +45,5 @@
         height: 4px;
         background: #2196F3;
         border-radius: 2px;
-
-        // @media (min-width: 768px) and (max-width: 1199px) {
-        //     bottom: calc(0px - 2px);
-        // }
-    }
-
-    @media (max-width: 767px) {
-        display: none;
     }
 }

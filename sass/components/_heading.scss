@@ -9,4 +9,8 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--brand-color);
+
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 50px;
+    }
 }

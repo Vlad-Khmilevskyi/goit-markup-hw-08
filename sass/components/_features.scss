@@ -5,11 +5,12 @@
     }
 
     &__style {
-        
-
         display: flex;
         flex-wrap: wrap;
-        
+
+        @media screen and (min-width: 1200px) {
+            gap: 30px;
+        }
     }
 
     &__icon {
@@ -24,6 +25,10 @@
             height: 224px;
             flex-basis: calc((100% - 4 * 15px) / 2);
             margin: 15px;
+        }
+
+        @media screen and (min-width: 768px) {
+            width: 270px;
         }
 
         &::before {
@@ -62,13 +67,11 @@
     }
 
     &__text {
-        @media screen and (min-width: 480px) and (max-width: 1199px) {
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.71;
-            letter-spacing: 0.03em;
-            
-            color: #757575;
-        }
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        
+        color: #757575;
     }
 }

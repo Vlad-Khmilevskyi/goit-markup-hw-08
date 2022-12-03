@@ -5,6 +5,13 @@
 
     background-color: #2F303A;
 
+    &--flex {
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
     &__box--one {
         @media screen and (min-width: 480px) and (max-width: 767px) {
             text-align: center;

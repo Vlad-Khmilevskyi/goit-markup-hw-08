@@ -1,10 +1,6 @@
 .section {
     
-    @media screen and (min-width: 480px) and (max-width: 767px) {
-        padding: 60px 0;
-    }
-
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (min-width: 480px) and (max-width: 1199px) {
         padding: 60px 0;
     }
 
@@ -13,11 +9,7 @@
     }
 
     &--bottom {
-        @media screen and (min-width: 480px) and (max-width: 767px) {
-            padding: 60px 0;
-        }
-        
-        @media screen and (min-width: 768px) and (max-width: 1199px) {
+        @media screen and (min-width: 480px) and (max-width: 1199px) {
             padding: 60px 0;
         }
         

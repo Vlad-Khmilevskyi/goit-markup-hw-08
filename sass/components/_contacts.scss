@@ -1,8 +1,11 @@
 .contacts {
-
     padding-left: 0;
     padding-top: 21px;
     padding-bottom: 21px;
+
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 
     @media screen and (min-width: 1200px) {
         display: flex;
@@ -47,9 +50,5 @@
 
     &__icon {        
         fill: currentColor;
-    }
-
-    @media screen and (max-width: 767px) {
-        display: none;
     }
 }

@@ -54,10 +54,13 @@
     }
 
     &__title {
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 30px;
 
         font-weight: 900;
+        font-size: 26px;
+        line-height: 1.62;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -66,9 +69,6 @@
 
         @media screen and (min-width: 480px) and (max-width: 1199px) {
             width: 360px;
-
-            font-size: 26px;
-            line-height: 1.62;
         }
 
         @media screen and (min-width: 1200px) {

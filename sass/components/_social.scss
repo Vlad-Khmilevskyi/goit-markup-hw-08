@@ -1,16 +1,10 @@
 .social {
-    @media (min-width: 480px) {
+    @media (min-width: 320px) {
         display: flex;
         justify-content: center;
 
         gap: 10px;
     }
-
-    // display: flex;
-    // justify-content: space-between;
-    // justify-content: center;
-
-    // gap: 10px;
 
     &--bloc {
         padding-top: 16px;
